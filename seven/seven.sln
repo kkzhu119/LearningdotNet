@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6738FBA7-5038-4342-9A69-DCDDBEAB954A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{54862591-1AA2-4EC2-816D-8C1270AD1C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{F9E5108A-80F2-46E1-9A6F-9744121900E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "高级参数", "高级参数\高级参数.csproj", "{DD2DB692-A7DC-47F8-AC65-AD0702E95472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用out参数做登陆", "使用out参数做登陆\使用out参数做登陆.csproj", "{744D6E45-4F2B-4A50-9E4F-BCCCE3A546BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref参数", "ref参数\ref参数.csproj", "{BF56BF0C-25D4-4775-BA89-7A2097865CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "params可变参数", "params可变参数\params可变参数.csproj", "{CDC752F2-8AE3-4B64-B5EA-E0B52CC0F438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{6738FBA7-5038-4342-9A69-DCDDBEAB954A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6738FBA7-5038-4342-9A69-DCDDBEAB954A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6738FBA7-5038-4342-9A69-DCDDBEAB954A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54862591-1AA2-4EC2-816D-8C1270AD1C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54862591-1AA2-4EC2-816D-8C1270AD1C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54862591-1AA2-4EC2-816D-8C1270AD1C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54862591-1AA2-4EC2-816D-8C1270AD1C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E5108A-80F2-46E1-9A6F-9744121900E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E5108A-80F2-46E1-9A6F-9744121900E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E5108A-80F2-46E1-9A6F-9744121900E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E5108A-80F2-46E1-9A6F-9744121900E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2DB692-A7DC-47F8-AC65-AD0702E95472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2DB692-A7DC-47F8-AC65-AD0702E95472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2DB692-A7DC-47F8-AC65-AD0702E95472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2DB692-A7DC-47F8-AC65-AD0702E95472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744D6E45-4F2B-4A50-9E4F-BCCCE3A546BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744D6E45-4F2B-4A50-9E4F-BCCCE3A546BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744D6E45-4F2B-4A50-9E4F-BCCCE3A546BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744D6E45-4F2B-4A50-9E4F-BCCCE3A546BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF56BF0C-25D4-4775-BA89-7A2097865CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF56BF0C-25D4-4775-BA89-7A2097865CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF56BF0C-25D4-4775-BA89-7A2097865CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF56BF0C-25D4-4775-BA89-7A2097865CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC752F2-8AE3-4B64-B5EA-E0B52CC0F438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC752F2-8AE3-4B64-B5EA-E0B52CC0F438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC752F2-8AE3-4B64-B5EA-E0B52CC0F438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC752F2-8AE3-4B64-B5EA-E0B52CC0F438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
