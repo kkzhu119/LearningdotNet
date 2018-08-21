@@ -14,7 +14,11 @@ namespace params可变参数
             //int[] s = { 99, 88, 77 };
             //Console.ReadKey();
             //求任意长度数组的和，整数类型的
+
         }
+
+
+
 
         public static int GetSum(params int[] n)
         {
