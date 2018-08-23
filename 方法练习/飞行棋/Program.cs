@@ -10,10 +10,14 @@ namespace 飞行棋
     {
         //我们用静态字段来模拟全局变量
         static int[] Maps = new int[100];
+        //声明一个静态数组用来存储玩家A和玩家B的坐标
+        static int[] PlayPos = new int[2];
         static void Main(string[] args)
         {
            
             GameShow();
+            InitailMap();
+            DrawMap();
             Console.ReadKey();
         }
 
@@ -71,6 +75,112 @@ namespace 飞行棋
                 int n = timeTunnel[i];
                 Maps[n] = 4;
             }
+        }
+
+
+        public static void DrawMap()
+        {
+            #region //第一横行
+            for (int i = 0; i < 30; i++)
+            {
+                
+                Console.Write(DrawStringMap(i));
+            }
+            #endregion
+            Console.WriteLine();
+            #region //第一竖行
+            for (int i = 30; i < 35; i++)
+            {
+                for (int j = 0; j < 29; j++)
+                {
+                    Console.Write("　");
+
+                }
+                Console.Write(DrawStringMap(i));
+                //DrawStringMap(i);
+                Console.WriteLine();
+            }
+            #endregion
+
+            //第二横行
+            for (int i = 35; i < 65; i++)
+            {
+                Console.Write(DrawStringMap(i));
+            }
+            Console.WriteLine();
+            //第二竖行
+            for (int i = 65; i < 70; i++)
+            {
+                Console.WriteLine(DrawStringMap(i));
+            }
+            //第三横行
+            for (int i = 70; i < 100; i++)
+            {
+                Console.Write(DrawStringMap(i));
+            }
+
+        }//DrawMap方法的结尾
+
+        /// <summary>
+        /// 从画地图的方法中抽象出来的一个方法
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static string DrawStringMap(int i)
+        {
+            string str = "";
+            #region 主要绘制方法
+            if (PlayPos[0] == PlayPos[1] && PlayPos[0] == i)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                str = "<>";
+                //Console.Write("<>");
+            }
+            else if (PlayPos[0] == i)
+            {
+                str = "A";
+                //Console.Write("A");
+
+            }
+            else if (PlayPos[1] == i)
+            {
+                str = "B";
+                //Console.Write("B");
+            }
+            else
+            {
+                switch (Maps[i])
+                {
+                    case 0:
+                        Console.ForegroundColor = ConsoleColor.White;
+                        str = "□";
+                        //Console.Write("□");
+                        break;
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        str = "◎";
+                        //Console.Write("◎");
+                        break;
+                    case 2:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        str = "☆";     
+                        //Console.Write("☆");
+                        break;
+                    case 3:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        str = "▲";
+                       
+                        //Console.Write("▲");
+                        break;
+                    case 4:
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        str = "¤";                        
+                        //Console.Write("¤");
+                        break;
+                }
+            }
+            #endregion
+            return str;
         }
     }
 }
