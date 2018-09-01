@@ -21,6 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用文件流实现多媒
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件流下", "文件流下\文件流下.csproj", "{4BFFC334-835F-4F5D-8DCB-6B3049B0D13F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{8E10188E-DF7E-4619-BA8C-CF47B707BCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态练习", "多态练习\多态练习.csproj", "{D621324A-B2DB-4642-8387-1B672A552946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类", "抽象类\抽象类.csproj", "{94037AEB-B302-40D6-BD25-A1A3062DF8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类练习", "抽象类练习\抽象类练习.csproj", "{93F8747B-9034-4550-94D5-5D231493FB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态练习2", "多态练习2\多态练习2.csproj", "{BE5876E1-269B-4B67-AF96-BA552391C477}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,26 @@ Global
 		{4BFFC334-835F-4F5D-8DCB-6B3049B0D13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BFFC334-835F-4F5D-8DCB-6B3049B0D13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BFFC334-835F-4F5D-8DCB-6B3049B0D13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E10188E-DF7E-4619-BA8C-CF47B707BCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E10188E-DF7E-4619-BA8C-CF47B707BCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E10188E-DF7E-4619-BA8C-CF47B707BCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E10188E-DF7E-4619-BA8C-CF47B707BCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D621324A-B2DB-4642-8387-1B672A552946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D621324A-B2DB-4642-8387-1B672A552946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D621324A-B2DB-4642-8387-1B672A552946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D621324A-B2DB-4642-8387-1B672A552946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94037AEB-B302-40D6-BD25-A1A3062DF8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94037AEB-B302-40D6-BD25-A1A3062DF8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94037AEB-B302-40D6-BD25-A1A3062DF8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94037AEB-B302-40D6-BD25-A1A3062DF8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F8747B-9034-4550-94D5-5D231493FB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F8747B-9034-4550-94D5-5D231493FB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F8747B-9034-4550-94D5-5D231493FB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F8747B-9034-4550-94D5-5D231493FB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5876E1-269B-4B67-AF96-BA552391C477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5876E1-269B-4B67-AF96-BA552391C477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5876E1-269B-4B67-AF96-BA552391C477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5876E1-269B-4B67-AF96-BA552391C477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
